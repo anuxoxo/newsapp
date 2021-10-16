@@ -9,7 +9,7 @@ import {
 import LoadingBar from 'react-top-loading-bar';
 
 export default function App() {
-  const pages = 6;
+  const pages = 30;
   const [progress, setProgress] = useState(10);
 
   return (
