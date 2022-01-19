@@ -6,7 +6,7 @@ import {
 export default function Navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
                         <img src="https://image.flaticon.com/icons/png/512/3009/3009335.png" alt="logo"

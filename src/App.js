@@ -9,7 +9,7 @@ import {
 import LoadingBar from 'react-top-loading-bar';
 
 export default function App() {
-  const pages = 30;
+  const noa = 30;
   const [progress, setProgress] = useState(10);
 
   return (
@@ -27,15 +27,16 @@ export default function App() {
             <News
               setProgress={setProgress}
               key="general"
-              noOfArticle={pages}
+              noOfArticle={noa}
               country="in"
               category="general" />
           </Route>
+
           <Route exact path="/business">
             <News
               setProgress={setProgress}
               key="business"
-              noOfArticle={pages}
+              noOfArticle={noa}
               country={"in"}
               category={"business"} />
           </Route>
@@ -43,7 +44,7 @@ export default function App() {
             <News
               setProgress={setProgress}
               key="entertainment"
-              noOfArticle={pages}
+              noOfArticle={noa}
               country={"in"}
               category={"entertainment"} />
           </Route>
@@ -51,7 +52,7 @@ export default function App() {
             <News
               setProgress={setProgress}
               key="health"
-              noOfArticle={pages}
+              noOfArticle={noa}
               country={"in"}
               category={"health"} />
           </Route>
@@ -59,7 +60,7 @@ export default function App() {
             <News
               setProgress={setProgress}
               key="science"
-              noOfArticle={pages}
+              noOfArticle={noa}
               country={"in"}
               category={"science"} />
           </Route>
@@ -67,7 +68,7 @@ export default function App() {
             <News
               setProgress={setProgress}
               key="sports"
-              noOfArticle={pages}
+              noOfArticle={noa}
               country={"in"}
               category={"sports"} />
           </Route>
@@ -75,7 +76,7 @@ export default function App() {
             <News
               setProgress={setProgress}
               key="technology"
-              noOfArticle={pages}
+              noOfArticle={noa}
               country={"in"}
               category={"technology"} />
           </Route>
